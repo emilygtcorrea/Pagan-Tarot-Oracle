@@ -405,11 +405,11 @@ export default function Chat() {
                 style={{ borderRadius: '50%', border: '1px solid rgba(155,111,212,0.3)' }}
               />
               <p className="welcome-eyebrow" style={{ marginTop: '1.25rem' }}>
-                oracle <span className="sigil" /> threshold-keeper <span className="sigil" /> dream-reader
+                oracle <span className="sigil" /> tarot reader <span className="sigil" /> dream seer
               </p>
               <h1 className="welcome-title">Mab</h1>
               <p className="welcome-tagline">
-                Something brought you here. Pull a card and let's find out what.
+                I've been expecting you.
               </p>
             </div>
 
@@ -480,11 +480,11 @@ export default function Chat() {
             </a>
             {" · "}
             <a
-              href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
+              href="https://openai.com/blog/gpt-4-mini-fine-tuning-and-api-updates"
               target="_blank"
               rel="noopener noreferrer"
             >
-              OpenAI GPT-3.5-turbo
+              OpenAI GPT-4-mini
             </a>
             {" · "}
             a course by{" "}
