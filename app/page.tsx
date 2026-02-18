@@ -457,7 +457,6 @@ html, body {
               tabIndex={0}
               required
               rows={1}
-              autoFocus
               placeholder="Speak your question into the dark..."
               value={input}
               onChange={(e) => setInput(e.target.value)}
