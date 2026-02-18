@@ -445,7 +445,7 @@ export default function Chat() {
               required
               rows={1}
               autoFocus
-              placeholder="Ask the cards something…"
+              placeholder="Speak your question into the dark…"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => {
