@@ -413,7 +413,7 @@ export default function Chat() {
             <div className="welcome-divider" />
 
             <div className="prompts-section">
-              <p className="prompts-label">Speak your question into the dark.</p>
+              <p className="prompts-label">Speak your question into the dark</p>
               {examples.map((example, i) => (
                 <button
                   key={i}
