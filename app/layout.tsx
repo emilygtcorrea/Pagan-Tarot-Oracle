@@ -1,13 +1,16 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Cormorant_Garamond, Cinzel } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react';
 
-const inter = Inter({ subsets: ['latin'] })
+const cormorant = Cormorant_Garamond({ 
+  subsets: ['latin'],
+  weight: ['300', '400'],
+  style: ['normal', 'italic'],
+})
 
 export const metadata = {
   title: "Mab",
-  description:
-    "I've been expecting you."
+  description: "I've been expecting you."
 }
 
 export default function RootLayout({
@@ -17,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={cormorant.className}>
         {children}
         <Analytics />
       </body>
