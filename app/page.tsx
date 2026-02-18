@@ -400,8 +400,8 @@ export default function Chat() {
               <Image
                 src="/sample-image.png"
                 alt="Mab"
-                width={52}
-                height={52}
+                width={120}
+                height={120}
                 style={{ borderRadius: '50%', border: '1px solid rgba(155,111,212,0.3)' }}
               />
               <p className="welcome-eyebrow" style={{ marginTop: '1.25rem' }}>
