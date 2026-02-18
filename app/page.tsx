@@ -413,7 +413,7 @@ export default function Chat() {
             <div className="welcome-divider" />
 
             <div className="prompts-section">
-              <p className="prompts-label">Ask Mab...</p>
+              <p className="prompts-label">Speak your question into the dark.</p>
               {examples.map((example, i) => (
                 <button
                   key={i}
@@ -442,7 +442,7 @@ export default function Chat() {
               required
               rows={1}
               autoFocus
-              placeholder="Speak your question into the dark…"
+              placeholder="Ask Mab..."
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => {
