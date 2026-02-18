@@ -10,7 +10,8 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata = {
   title: "Mab",
-  description: "I've been expecting you."
+  description: "I've been expecting you.",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 }
 
 export default function RootLayout({
