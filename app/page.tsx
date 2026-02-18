@@ -397,18 +397,22 @@ export default function Chat() {
             style={{ maxWidth: '680px', width: '100%' }}
           >
             <div className="welcome-header">
-              <Image
-                src="/sample-image.png"
-                alt="Mab"
-                width={120}
-                height={120}
-                style={{ borderRadius: '50%', border: '1px solid rgba(155,111,212,0.3)' }}
-              />
-              <p className="welcome-eyebrow" style={{ marginTop: '1.25rem' }}>
-                oracle <span className="sigil" /> tarot reader <span className="sigil" /> dream seer
-              </p>
-              <h1 className="welcome-title">Mab</h1>
-            </div>
+  <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+    <Image
+      src="/mab.png"
+      alt="Mab"
+      width={120}
+      height={120}
+      style={{ borderRadius: '50%', border: '1px solid rgba(155,111,212,0.3)', flexShrink: 0 }}
+    />
+    <div>
+      <p className="welcome-eyebrow">
+        oracle <span className="sigil" /> tarot reader <span className="sigil" /> dream seer
+      </p>
+      <h1 className="welcome-title">Mab</h1>
+    </div>
+  </div>
+</div>
 
             <div className="welcome-divider" />
 
