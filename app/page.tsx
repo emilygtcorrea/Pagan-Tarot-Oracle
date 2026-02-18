@@ -364,6 +364,11 @@ export default function Chat() {
           opacity: 0.6;
         }
 
+html, body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
         @media (max-width: 640px) {
   .welcome-eyebrow {
     font-size: 0.6rem;
