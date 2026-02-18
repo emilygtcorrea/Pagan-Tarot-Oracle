@@ -363,6 +363,13 @@ export default function Chat() {
           vertical-align: middle;
           opacity: 0.6;
         }
+
+        @media (max-width: 640px) {
+  .welcome-eyebrow {
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+  }
+}
       `}</style>
 
       <main className="flex flex-col items-center justify-between pb-40">
