@@ -82,9 +82,15 @@ export default function Chat() {
               height={40}
               className="h-20 w-20"
             />
+            <p className="text-gray-500">
+              Welcome, stranger.
+            </p>
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm TK, a fine-tuned LLM emulating a pagan, tarot-reading oracle.
+              I'm Mab
             </h1>
+            <p className="text-gray-500">
+              I've been expecting you. Pull a card, tell me what you see.
+            </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">
             {examples.map((example, i) => (
