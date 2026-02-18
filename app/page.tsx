@@ -399,17 +399,17 @@ export default function Chat() {
             <div className="welcome-header">
   <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
     <Image
-      src="/mab.png"
+      src="sample-image.png"
       alt="Mab"
       width={120}
       height={120}
       style={{ borderRadius: '50%', border: '1px solid rgba(155,111,212,0.3)', flexShrink: 0 }}
     />
     <div>
+      <h1 className="welcome-title">Mab</h1>
       <p className="welcome-eyebrow">
         oracle <span className="sigil" /> tarot reader <span className="sigil" /> dream seer
       </p>
-      <h1 className="welcome-title">Mab</h1>
     </div>
   </div>
 </div>
