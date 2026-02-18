@@ -408,15 +408,12 @@ export default function Chat() {
                 oracle <span className="sigil" /> tarot reader <span className="sigil" /> dream seer
               </p>
               <h1 className="welcome-title">Mab</h1>
-              <p className="welcome-tagline">
-                I've been expecting you.
-              </p>
             </div>
 
             <div className="welcome-divider" />
 
             <div className="prompts-section">
-              <p className="prompts-label">ask the cards</p>
+              <p className="prompts-label">Ask Mab...</p>
               {examples.map((example, i) => (
                 <button
                   key={i}
