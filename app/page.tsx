@@ -16,7 +16,7 @@ import Image from "next/image";
 const examples = [
   "What question should I ask the cards today?",
   "I pulled the Seven of Swords. What does that mean?",
-  "Suggest a card that will inspire me today.",
+  "Suggest a card to inspire me.",
 ];
 
 export default function Chat() {
